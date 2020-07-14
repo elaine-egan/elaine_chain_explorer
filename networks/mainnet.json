@@ -1,37 +1,20 @@
 {
-  "title": "ARK Explorer",
-  "server": "https://explorer.ark.io/api",
+  "title": "ElaineChain mainnet Explorer",
+  "server": "http://159.69.188.167:4003/api/v2",
   "alias": "Main",
-  "activeDelegates": 51,
-  "rewardOffset": 75600,
-  "currencies": {
-    "AUD": "A$",
-    "BRL": "R$",
-    "BTC": "Ƀ",
-    "CAD": "C$",
-    "CHF": "CHF",
-    "CNY": "¥",
-    "ETH": "Ξ",
-    "EUR": "€",
-    "GBP": "£",
-    "JPY": "¥",
-    "KRW": "₩",
-    "LTC": "Ł",
-    "NZD": "N$",
-    "RUB": "₽",
-    "USD": "$"
-  },
+  "activeDelegates": "101",
+  "rewardOffset": "6500",
+  "currencies": [],
   "defaults": {
-    "token": "ARK",
-    "symbol": "Ѧ",
-    "currency": {
-      "name": "USD",
-      "symbol": "$"
-    },
+    "token": "enc",
+    "symbol": "E",
+    "currency": null,
     "priceChartOptions": {
       "enabled": true,
       "period": "day",
       "type": "price"
-    }
-  }
+    },
+    "priceChart": false
+  },
+  "knownWallets": {}
 }
